@@ -33,7 +33,6 @@ export class AddAlbum extends Component {
         const { album_title, artist, album_cover} = this.state
         return (
             <div>
-                
                 <form onSubmit = {this.handleSubmit}>
                     <div>
                         <label>Album Title:</label>
@@ -69,5 +68,4 @@ export class AddAlbum extends Component {
         )
     }
 }
-
 export default AddAlbum

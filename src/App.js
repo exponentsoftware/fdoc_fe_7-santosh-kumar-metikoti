@@ -6,7 +6,6 @@ import './App.css';
 export class App extends Component {
   constructor(props) {
     super(props)
-  
     this.state = {
       albums: [
         {id: 1, artist: "artist 1", album_title: "album1", album_cover: "ms1", songs: "Song1"},
